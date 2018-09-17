@@ -1,5 +1,6 @@
 
 // export default const sum = (a,b) => a + b
+
 // const Info = () => {
 
 //     const _navPoints {

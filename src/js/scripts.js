@@ -1,12 +1,12 @@
 
-// import { sum } from './data'
+// import { sum } from '../data/data.js'
 
-document.addEventListener('DOMContentLoaded', function () {
+// document.addEventListener('DOMContentLoaded', function () {
 
-    console.log('thing')
-    console.log('thing2', sum(4,9))
+//     console.log('thing')
+//     console.log('thing2', sum(4,9))
 
-})
+// })
 
 document.addEventListener('scroll', function (e) {
 
