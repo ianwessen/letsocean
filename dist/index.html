@@ -49,7 +49,7 @@
         </div>
 
     </div>
-</body>
+<script type="text/javascript" src="index.js"></script></body>
 </html> 
 -->
 
@@ -82,12 +82,20 @@
             document.addEventListener('DOMContentLoaded', function(){
                 var elem = document.getElementById('app');
 
-                let instance = new DepthCounter(elem, [
-                    {firstname: 'Ross', lastname: 'Geller'},
-                    {firstname: 'Monica', lastname: 'Geller'},
-                    {firstname: 'Chandler', lastname: 'Bing'},
-                    {firstname: 'Joey', lastname: 'Tribbiani'},
-                ]);
+                // if (!new DepthCounter()) {
+                // }
+
+                console.log(elem);
+                console.log(new DepthCounter(elem, []));
+                console.log('END');
+                return;
+
+                // let instance = new DepthCounter(elem, [
+                //     {firstname: 'Ross', lastname: 'Geller'},
+                //     {firstname: 'Monica', lastname: 'Geller'},
+                //     {firstname: 'Chandler', lastname: 'Bing'},
+                //     {firstname: 'Joey', lastname: 'Tribbiani'},
+                // ]);
 
                 // initialize
                 instance.init();
