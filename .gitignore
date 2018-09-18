@@ -2,3 +2,4 @@ node_modules/*
 research/*
 notes.md
 yarn.lock
+.sass-cache
